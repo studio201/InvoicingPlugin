@@ -6,11 +6,13 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
+        "doctrine/migrations": "^3.0@alpha",
+        "doctrine/doctrine-migrations-bundle": "^3.0@alpha",
         "knplabs/knp-snappy-bundle": "^1.5",
         "ramsey/uuid": "^3.7",
         "sylius/grid-bundle": "^1.7",
         "sylius/resource-bundle": "^1.6",
-        "sylius/sylius": "^1.4",
+        "sylius/sylius": "dev-migrations-alpha",
         "symfony/config": "^4.3",
         "symfony/dependency-injection": "^4.3",
         "symfony/form": "^4.3",
@@ -51,6 +53,8 @@
         "symfony/doctrine-bridge": "4.3.0",
         "symfony/framework-bundle": "4.3.0"
     },
+    "minimum-stability": "alpha",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Sylius\\InvoicingPlugin\\": "src/",
