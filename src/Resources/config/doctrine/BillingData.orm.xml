@@ -9,6 +9,7 @@
         <field name="firstName" column="first_name" />
         <field name="lastName" column="last_name" />
         <field name="company" column="company" nullable="true" />
+        <field name="companyVat" column="companyVat" nullable="true" />
         <field name="street" column="street" />
         <field name="city" column="city" />
         <field name="postcode" column="postcode" />
